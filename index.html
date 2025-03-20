@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <h1>🔥 Stunning Hover Effects Showcase</h1>
+
+    <div class="gallery">
+        <!-- Zoom -->
+        <div class="hover-box">
+            <div class="hover-item zoom">
+                <img src="https://picsum.photos/400/200?random=101">
+            </div>
+            <div class="code-container">
+                <pre id="code1">.zoom:hover img { transform: scale(1.2); }</pre>
+                <button class="copy-btn" onclick="copyCode('code1')">Copy Code</button>
+            </div>
+        </div>
+
+        <!-- Rotate -->
+        <div class="hover-box">
+            <div class="hover-item rotate">
+                <img src="https://picsum.photos/400/200?random=102">
+            </div>
+            <div class="code-container">
+                <pre id="code2">.rotate:hover img { transform: rotate(5deg) scale(1.1); }</pre>
+                <button class="copy-btn" onclick="copyCode('code2')">Copy Code</button>
+            </div>
+        </div>
+
+        <!-- Glow -->
+        <div class="hover-box">
+            <div class="hover-item glow">
+                <img src="https://picsum.photos/400/200?random=103">
+            </div>
+            <div class="code-container">
+                <pre id="code3">.glow:hover img { box-shadow: 0 0 25px #00ffff; filter: brightness(1.1); }</pre>
+                <button class="copy-btn" onclick="copyCode('code3')">Copy Code</button>
+            </div>
+        </div>
+
+        <!-- Blur -->
+        <div class="hover-box">
+            <div class="hover-item blur">
+                <img src="https://picsum.photos/400/200?random=104">
+            </div>
+            <div class="code-container">
+                <pre id="code4">.blur:hover img { filter: blur(2px) brightness(0.8); }</pre>
+                <button class="copy-btn" onclick="copyCode('code4')">Copy Code</button>
+            </div>
+        </div>
+
+        <!-- Flip -->
+        <div class="hover-box">
+            <div class="hover-item flip">
+                <img src="https://picsum.photos/400/200?random=105">
+            </div>
+            <div class="code-container">
+                <pre id="code5">.flip:hover img { transform: rotateY(180deg); }</pre>
+                <button class="copy-btn" onclick="copyCode('code5')">Copy Code</button>
+            </div>
+        </div>
+
+        <!-- Sepia -->
+        <div class="hover-box">
+            <div class="hover-item sepia">
+                <img src="https://picsum.photos/400/200?random=106">
+            </div>
+            <div class="code-container">
+                <pre id="code6">.sepia:hover img { filter: sepia(1) contrast(1.2); }</pre>
+                <button class="copy-btn" onclick="copyCode('code6')">Copy Code</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
